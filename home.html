@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>
+           Simple Linear Regression 
+        </title>
+    </head>
+    <body>
+        <p>
+            <h1>Supervised Learning Flower Class Prediction</h1><br>
+            Enter Your Input:<br><br>
+            <form action="/predict" method="post">
+                s_length: <input type="text" name="s_length">  
+                <br>
+				s_width: <input type="text" name="s_width">  
+				<br>
+				p_length: <input type="text" name="p_length">  
+				<br>
+				p_width: <input type="text" name="p_width">  <br>
+				
+                    <br>
+                <input type="submit" name= "form" value="Submit" />
+          </form>
+                <br>
+                <br>
+     
+           
+			<h2><label><b>Predicted Flower Class : </b></label></h2>
+			<br>
+			<h1><u>{{ output }}</u></h1>
+			
+
+      <center></center>
+        </p>
+    </body>
+</html>
